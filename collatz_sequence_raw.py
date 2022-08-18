@@ -1,6 +1,6 @@
 """
-Created on 2022, 18 Aug (18/08/22) at 19:51
-    Title: collatz_sequence.py - Printing Collatz Sequence of a Number
+Created on 2022, 18 Aug (18/08/22) at 21:35
+    Title: collatz_sequence_raw.py - Printing Collatz Sequence of a Number
     Description:
         -   ...
 @author: Supantha Sen, sunnymac, IISc Bangalore
