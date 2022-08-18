@@ -20,10 +20,15 @@ def collatz(num):
 		return (3*num + 1)
 ####
 
-n = int(input('Enter the Number:'))
-x = collatz(n)
+input = input('Enter the Number:')
 
-while x != 1:
+try:
+	n = int(input)
+	x = collatz(n)
+	while x != 1:
+		print(x)
+		x = collatz(x)
 	print(x)
-	x = collatz(x)
-print(x)
+
+except ValueError:
+	print('The number must be Integer')
